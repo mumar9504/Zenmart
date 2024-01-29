@@ -386,7 +386,7 @@
 }
 
 .shop_category_frame .category_top a:hover {
-  border-bottom: 2px solid #041E42 ;
+  border-bottom: 2px solid #041E42;
 }
 
 .shop_category_frame .container .category_wrapper {
@@ -423,12 +423,12 @@
 
 .shop_category_frame .category_box span {
   margin-top: 15px;
-font-family: "Jost";
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 28px; 
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px; 
 
-text-align: center;
-color:  #041E42;
+  text-align: center;
+  color:  #041E42;
 }
