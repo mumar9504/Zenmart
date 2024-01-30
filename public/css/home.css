@@ -612,3 +612,56 @@
   text-decoration-line: line-through;
   color: #626974;
 }
+
+/* .container .product_pagination_box {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
+
+.product_pagination_box .container {
+  margin-top: 30px;
+  width: 160px;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container .page_arrow_left_box {
+  width: auto;
+  height: 24px;
+}
+
+.page_arrow_left_box img:hover {
+  background: #F5C34B;
+}
+
+.container .page_bullet_box {
+  width: 82px;
+  height: 24px;
+}
+
+.container .page_arrow_right_box {
+  width: auto;
+  height: 24px;
+}
+
+.page_arrow_right_box img:hover {
+  background: #F5C34B;
+} */
+
+.container .pagination {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
