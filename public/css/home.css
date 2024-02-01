@@ -723,31 +723,16 @@
 /* product_pagination_box style 3 */
 
 
-.page_space_page {
-  position: relative;
-  margin-top: 70px;
+.home_page .adv_frame {
+  margin-top: 90px;
   width: 100%;
   height: 120px;
 
   display: flex;
-  background: #d9e8f7;
-}
-
-.page_space_page .page_box {
-  position: relative;
-  margin: 51px 300px 43px;
-  width: 1113px;
-  height: 26px;
-
-  display: flex;
-  justify-content: center;
   align-items: center;
-  border: 1px solid #0053F6;
-}
+  justify-content: center;
 
-.page_space_page .page_box span {
-  text-align: center;
-
+  background: #E5EEFF;
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
