@@ -883,7 +883,7 @@ color: #041E42;
 .spec_product_frame .small_product_box img {
   position: absolute;
   right: 30px;
-  top: 40px;
+  bottom: 20px;
 
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   mix-blend-mode: darken;
