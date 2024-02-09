@@ -1,3 +1,7 @@
+:root {
+    --font: "Jost";
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -88,7 +92,7 @@ p {
     border: none;
     outline: none;
 
-    font-family: "Jost", sans-serif;
+    font-family: var(--font);
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -104,7 +108,7 @@ p {
     border: none;
     outline: none;
 
-    font-family: "Jost", sans-serif;
+    font-family: var(--font);
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -172,7 +176,7 @@ p {
 }
 
 .navbar_frame .box_info_box span {
-    font-family: "Jost", sans-serif;
+    font-family: var(--font);
     font-optical-sizing: auto;
     font-size: 13px;
     font-style: normal;
@@ -184,7 +188,7 @@ p {
 }
 
 .navbar_frame .box_info_box strong {
-    font-family: "Jost", sans-serif;
+    font-family: var(--font);
     font-optical-sizing: auto;
     font-size: 16px;
     font-style: normal;
@@ -208,7 +212,7 @@ p {
     border-radius: 50%;
     background: #F5C34B;
 
-    font-family: "Jost", sans-serif;
+    font-family: var(--font);
     font-size: 8px;
     font-style: normal;
     font-weight: 700;
@@ -254,7 +258,7 @@ p {
 }
 
 .navbar_frame .browse_box span {
-    font-family: "Jost";
+    font-family: var(--font);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -276,7 +280,7 @@ p {
 }
 
 .navbar_frame .router_menu a  {
-    font-family: "Jost";
+    font-family: var(--font);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -300,7 +304,7 @@ p {
 .navbar_frame .sorting_menu span {
     margin-right: 20px;
 
-    font-family: "Jost";
+    font-family: var(--font);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -324,7 +328,7 @@ p {
 .footer_frame .footer_spec_title {
     display: block;
     margin-bottom: 30px;
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -367,7 +371,7 @@ p {
 }
 
 .footer_frame .footer_contact_main div strong {
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -378,7 +382,7 @@ p {
 
 .footer_frame .footer_contact_main div span {
     margin-top: 10px;
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -394,7 +398,7 @@ p {
 }
 
 .footer_frame .footer_support_box  a {
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -410,7 +414,7 @@ p {
 }
 
 .footer_frame .footer_services_box  a {
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -453,7 +457,7 @@ p {
 
 .footer_frame .mobile_app_box span {
     margin-left: 20px;
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -499,7 +503,7 @@ p {
 .footer_frame .footer_bottom_left span {
     margin-right: 60px;
     width: 280px;
-    font-family: "Jost";
+    font-family: var(--font);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -534,7 +538,7 @@ p {
 }
 
 .footer_frame .footer_select_box span {
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
