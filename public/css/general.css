@@ -11,6 +11,18 @@
 }
 
 :root {
+    --Color-Border: #EAEAEA;
+}
+
+:root {
+    --Bg-White: #FFF;
+}
+
+:root {
+    --Bg-1: #443297;
+}
+
+:root {
     --Bg-2: #F5C34B;
 }
 
