@@ -2,6 +2,18 @@
     --font: "Jost";
 }
 
+:root {
+    --Color-Text-Light: #626974;
+}
+
+:root {
+    --Color-Text-Dark: #041E42;
+}
+
+:root {
+    --Bg-2: #F5C34B;
+}
+
 html, body {
     margin: 0;
     padding: 0;
