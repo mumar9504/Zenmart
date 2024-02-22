@@ -832,7 +832,7 @@ color: #041E42;
   height: 309px;
   right: 5%;
 
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background: cover no-repeat;
   mix-blend-mode: darken;
 }
 
@@ -895,7 +895,7 @@ color: #041E42;
   right: 30px;
   bottom: 20px;
 
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background: cover no-repeat;
   mix-blend-mode: darken;
 }
 
