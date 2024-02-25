@@ -593,3 +593,7 @@
     border: none;
     background: var(--Bg-2);
 }
+
+.shop_cart_frame .content_box_right .checkout_box button:hover {
+    color: var(--Bg-White);
+}
