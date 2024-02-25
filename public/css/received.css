@@ -1,0 +1,217 @@
+.receive_page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.receive_page .title_div {
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.receive_page .title_div img {
+    width: 80px;
+    height: 80px;
+}
+
+.receive_page .title_div div img {
+    margin-top: -105px;
+    width: 30px;
+    height: 45px;
+
+    color: var(--Bg-White);
+}
+
+.receive_page .title_div span {
+    margin-top: 10px;
+
+    text-align: center;
+    font-family: var(--font);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    color: var(--Color-Text-Dark);
+
+}
+
+.receive_page .title_div p {
+    margin-top: 10px;
+
+    text-align: center;
+    font-family: var(--font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    color: var(--Color-Text-Dark);
+}
+
+/* RECEIVE */
+.receive_page .receive_frame {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.receive_frame .container {
+    flex-direction: column;
+}
+
+.container .order_box_top {
+    margin-top: 40px;
+    width: 100%;
+    height: 132px;
+
+    border-radius: 6px;
+    border: 1px dashed var(--Color-Text-Light);
+    background: var(--Bg-White);
+    box-sizing: border-box;
+}
+
+.container .order_box_top .menu_box_top {
+    padding: 35px 0px 0px 180px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container .order_box_top .menu_box_top div {
+    width: 250px;
+    height: 28px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: var(--font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    color: var(--Color-Text-Dark);
+}
+
+.container .order_box_top .menu_box_bott {
+    margin-top: 6px;
+    padding: 0px 0px 35px 180px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container .order_box_top .menu_box_bott div {
+    width: 250px;
+    height: 28px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: var(--font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    color: var(--Color-Text-Dark);
+}
+
+.container .order_box_bott {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 530px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 6px;
+    border: 1px solid var(--Color-Text-Light);
+    background: var(--Bg-White);
+    box-sizing: border-box;
+}
+
+.container .order_box_bott .title_box {
+    margin: 38px 0px 0px 75px;
+    font-family: var(--font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    color: var(--Color-Text-Dark);
+}
+
+.container .order_box_bott .product_info_box {
+    position: relative;
+    width: 100%;
+    height: 35px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .order_box_bott .info_box {
+    margin: 20px 75px 10px;
+    padding-bottom: 10px;
+    width: 1170px;
+    height: 35px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid var(--Color-Border);
+}
+
+.container .order_box_bott .info_box div {
+    display: flex;
+    justify-content: flex-start;
+
+    font-family: var(--font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; 
+    color: var(--Color-Text-Dark);
+}
+
+.container .order_box_bott .info_box p {
+    justify-content: flex-end;
+
+    font-family: var(--font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; 
+    color: var(--Color-Text-Dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+
