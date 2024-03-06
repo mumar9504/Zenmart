@@ -302,20 +302,20 @@ p {
     color: #FFFFFF;
 }
 
-.navbar_frame .navbar_bott_menu_box .navbar_route_menu {
+.navbar_frame .navbar_bott_menu_box .navbar_route_menu_home {
     margin-left: 12px;
     width: 670px;
     display: flex;
     flex-direction: row;
 }
 
-.navbar_frame .navbar_route_menu .router_menu {
+.navbar_frame .navbar_route_menu_home .router_menu {
     margin-right: 20px;
     width: auto;
     height: 41px;
 }
 
-.navbar_frame .router_menu a  {
+.navbar_frame .navbar_route_menu_home .router_menu a  {
     font-family: var(--font);
     font-size: 16px;
     font-style: normal;
@@ -325,8 +325,32 @@ p {
     color: #ffffff;
 }
 
-.navbar_frame .router_menu a.active {
+.navbar_frame .navbar_route_menu_home .router_menu a.active {
     color: #f5c34b;
+}
+
+.navbar_frame .navbar_bott_menu_box .navbar_route_menu_others {
+    margin-left: 12px;
+    width: 670px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar_frame .navbar_route_menu_others .router_menu_others {
+    margin-right: 20px;
+    width: auto;
+    height: 41px;
+}
+
+.navbar_frame .navbar_route_menu_others .router_menu_others a {
+    padding-left: 10px;
+    font-family: var(--font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    
+    color: #ffffff;
 }
 
 .navbar_frame .navbar_bott_menu_box .sorting_menu {
